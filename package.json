@@ -1,0 +1,8 @@
+{
+  "scripts" : {
+    "linting":"mega-linter-runner -p src"
+  },
+  "dependencies": {
+    "mega-linter-runner": "^6.11.1"
+  }
+}
