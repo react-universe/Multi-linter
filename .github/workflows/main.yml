@@ -17,7 +17,7 @@ on:
 jobs:
   container-test-job:
     runs-on: ubuntu-latest
-    container: megalinter:v6
+    container: oxsecurity/megalinter:latest
     steps:
       - name: Check for dockerenv file
         run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
